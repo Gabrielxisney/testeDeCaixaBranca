@@ -38,3 +38,24 @@ Conexões
 1.7 Conclusão:
 
 	O código Java fornecido tem uma qualidade regular, mas poderia ser melhorado nos pontos de documentação, para melhor entendimento do código.
+
+ # ETAPA 2
+ 	Os números dos valores mostrados na imagem do grafo estão comentados no código.
+	No arquivo grafo_de_fluxo.png, temos o grafo do fluxo de funcionamento.
+
+ 	A complexidade ciclomática do código é de 2 pois o código tem dois caminho independentes.
+
+# Caminhos :
+
+	Caminho 1:
+		1. A aplicação inicia.
+		2. Uma conexão com o banco de dados é estabelecida.
+		3. A consulta SQL é executada.
+		4. Os resultados são verificados.
+		5. A aplicação encerra.
+
+  	Caminho 2:
+   		1. A aplicação inicia.
+		2. Uma conexão com o banco de dados é estabelecida.
+		3. A consulta SQL é executada, mas não retorna resultados.
+		4. A aplicação encerra.
